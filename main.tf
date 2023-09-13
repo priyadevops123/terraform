@@ -16,5 +16,5 @@ resource "aws_security_group_rule" "example" {
   protocol          = "tcp"
   cidr_blocks       = ["0.0.0.0/0"]
   ipv6_cidr_blocks  = ["::/0"]
-  security_group_id = "sg-027d0b1d228d718d3"
+  security_group_id = "sg-0cd773913ee3cf805"
 }
